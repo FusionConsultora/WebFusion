@@ -1,4 +1,5 @@
 import About from './components/About'
+import Clients from './components/Clients'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Services from './components/Services'
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Services />
       <About />
+      <Clients />
 
       <WhatsappButton />
 
