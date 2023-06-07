@@ -13,7 +13,6 @@ export default {
       },
       colors: {
         brand: {
-          DEFAULT: '#f84b01',
           title: "#011b34",  
           text: '#303030',
           lightBlue: '#38B6FF',

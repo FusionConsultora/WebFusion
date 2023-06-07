@@ -1,5 +1,8 @@
+import About from './components/About'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Services from './components/Services'
+import WhatsappButton from './components/WhatsappButton'
 
 function App() {
   return (
@@ -7,8 +10,12 @@ function App() {
 
       <Navbar />
       <Hero />
+      <Services />
+      <About />
 
-      <div className='h-[80rem] bg-white'> </div>
+      <WhatsappButton />
+
+      <div className='h-[40rem] bg-white'> </div>
     </div>
   )
 }
