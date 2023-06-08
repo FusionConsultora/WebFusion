@@ -1,8 +1,22 @@
+import { useEffect } from "react";
 import style from "../styles/clients.module.scss"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Clients = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
+
     return (
-        <section >
+        <section
+            data-aos="fade-down"
+            data-aos-once="true"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+
             <h2 className="mt-32 text-5xl font-bold text-center text-brand-blue">
                 Nuestros clientes
             </h2>

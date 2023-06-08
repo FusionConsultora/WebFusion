@@ -1,6 +1,7 @@
 import CardAbout from "../utils/CardAbout"
 
 const About = () => {
+
     return (
         <section className="mt-32 mx-4">
             <CardAbout
@@ -10,6 +11,7 @@ const About = () => {
                 phrase="Hagamoslo realidad"
                 href="https://api.whatsapp.com/send/?phone=5491130500025&text=Buenos+dias%2C+estoy+interesado+en+consultoria+y+gestion+de+procesos%21&type=phone_number&app_absent=0"
                 left={true}
+                fade="fade-right"
             />
 
             <CardAbout
@@ -19,6 +21,7 @@ const About = () => {
                 phrase="Me interesa"
                 href="https://api.whatsapp.com/send/?phone=5491130500025&text=Buenos+dias%2C+estoy+interesado+en+gestion+y+de+recursos+humanos%21&type=phone_number&app_absent=0"
                 left={false}
+                fade="fade-left"
             />
 
             <CardAbout
@@ -28,6 +31,7 @@ const About = () => {
                 phrase="Quiero comenzar"
                 href="https://api.whatsapp.com/send/?phone=5491130500025&text=Buenos+dias%2C+estoy+interesado+en+desarrollo+de+software%21&type=phone_number&app_absent=0"
                 left={true}
+                fade="fade-right"
             />
 
             <CardAbout
@@ -37,6 +41,8 @@ const About = () => {
                 phrase="A por ello"
                 href="https://api.whatsapp.com/send/?phone=5491130500025&text=Buenos+dias%2C+estoy+interesado+en+prevencion+de+fraudes%21&type=phone_number&app_absent=0"
                 left={false}
+                fade="fade-left"
+
             />
         </section>
     )

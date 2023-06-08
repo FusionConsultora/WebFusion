@@ -70,21 +70,19 @@ const Navbar = () => {
                     variants={variants}
                     className={` ${style.nav} absolute w-[90%]  max-w-3xl p-8 text-left ${openMenu ? 'flex' : 'hidden'} flex-col gap-3 text-[1.2rem] font-[400]  top-24  bg-white right-1/2 left-1/2 translate-x-[-50%] `}
                 >
-                    <li className='cursor-pointer text-brand-title font-semibold '>Home</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Services</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Project</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Pages</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Blog</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Contact</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Inicio</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Servicios</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Nosotros</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Clientes</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Contacto</li>
                 </motion.ul>
 
                 <ul className='hidden w-[90%]  max-w-3xl p-8 text-left lg:flex self-center text-[1rem] gap-x-8 justify-center '>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Home</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Services</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Project</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Pages</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Blog</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Contact</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Inicio</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Servicios</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Nosotros</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Clientes</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Contacto</li>
                 </ul>
 
                 {/* <li className={`${style.header_menu} hidden w-16 h-7 flex-col mt-2 gap-[5px] lg:flex cursor-pointer`}>

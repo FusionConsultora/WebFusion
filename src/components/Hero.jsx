@@ -1,6 +1,15 @@
+import { useEffect } from "react";
 import style from "../styles/hero.module.scss"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Hero = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
+
     return (
         <section className='relative bg-gradient-to-t from-white via-brand-lightBlue/30 to-brand-lightBG/90 md:bg-gradient-to-tr md:from-white md:via-brand-lightBG/30 md:to-brand-lightBG/90'>
 
@@ -10,7 +19,11 @@ const Hero = () => {
                 </svg>
             </div>
 
-            <div className='flex flex-col w-full max-w-5xl py-36 m-auto'>
+            <div className='flex flex-col w-full max-w-5xl py-36 m-auto'
+                data-aos="fade-down"
+                data-aos-once="true"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
 
                 <h1 className='mt-10 mx-6 text-4xl leading-[1.1] text-brand-title font-extrabold text-left sm:text-5xl '>
                     Impulsa tu negocio hacia el
