@@ -15,7 +15,8 @@ const Clients = () => {
             data-aos="fade-down"
             data-aos-once="true"
             data-aos-duration="1000"
-            data-aos-easing="ease-in-out">
+            data-aos-easing="ease-in-out"
+            className="mb-96">
 
             <h2 className="mt-32 text-5xl font-bold text-center text-brand-blue">
                 Nuestros clientes

@@ -17,7 +17,9 @@ export default {
           text: '#303030',
           lightBlue: '#38B6FF',
           blue:'#17538E',
-          lightBG:"#80c5d6"
+          lightBG:"#80c5d6",
+          red:"#ff0000",
+          pink:"#ff00bf"
         }
       },
       // Animation for the menu
