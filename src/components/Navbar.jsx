@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import MenuIcon from '../utils/MenuIcon'
 import style from '../styles/header.module.scss'
 import { motion } from 'framer-motion'
+import { Link } from 'react-scroll';
+
 
 const variants = {
     open: {
@@ -59,8 +61,9 @@ const Navbar = () => {
             >
                 <ul className='w-full h-full grid grid-cols-2'>
                     <li className='mt-[-0.8rem]'>
-                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686146511/fusionWeb/logopng_nu7ff9.webp' alt='Logo de la empresa' className='h-24 w-24 cursor-pointer' />
-
+                        <Link to="hero" smooth={true} offset={-140} href='#'>
+                            <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686146511/fusionWeb/logopng_nu7ff9.webp' alt='Logo de la empresa' className='h-24 w-24 cursor-pointer' />
+                        </Link>
                     </li>
                     <li className='self-center justify-self-end lg:hidden' onClick={handleClick}>
                         <MenuIcon />
@@ -70,26 +73,84 @@ const Navbar = () => {
                     variants={variants}
                     className={` ${style.nav} absolute w-[90%]  max-w-3xl p-8 text-left ${openMenu ? 'flex' : 'hidden'} flex-col gap-3 text-[1.2rem] font-[400]  top-24  bg-white right-1/2 left-1/2 translate-x-[-50%] `}
                 >
-                    <li className='cursor-pointer text-brand-title font-semibold '>Inicio</li>
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="hero" smooth={true} offset={-140} href='#' onClick={handleClick}>
+                            Inicio
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="services" smooth={true} offset={-140} href='#' onClick={handleClick}>
+                            Servicios
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="about" smooth={true} offset={-140} href='#' onClick={handleClick}>
+                            Nosotros
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="clients" smooth={true} offset={-140} href='#' onClick={handleClick}>
+                            Clientes
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="contact" smooth={true} offset={-140} href='#' onClick={handleClick}>
+                            Contacto
+                        </Link>
+                    </li>
+
+                    {/* <li className='cursor-pointer text-brand-title font-semibold '>Inicio</li>
                     <li className='cursor-pointer text-brand-title font-semibold '>Servicios</li>
                     <li className='cursor-pointer text-brand-title font-semibold '>Nosotros</li>
                     <li className='cursor-pointer text-brand-title font-semibold '>Clientes</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Contacto</li>
+                    <li className='cursor-pointer text-brand-title font-semibold '>Contacto</li> */}
                 </motion.ul>
 
                 <ul className='hidden w-[90%]  max-w-3xl p-8 text-left lg:flex self-center text-[1rem] gap-x-8 justify-center '>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Inicio</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Servicios</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Nosotros</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Clientes</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Contacto</li>
-                </ul>
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="hero" smooth={true} offset={-140} href='#'>
+                            Inicio
+                        </Link>
+                    </li>
 
-                {/* <li className={`${style.header_menu} hidden w-16 h-7 flex-col mt-2 gap-[5px] lg:flex cursor-pointer`}>
-                    <span className='block w-full h-[3px] bg-brand-title' />
-                    <span className='block w-[80%] self-end h-[3px] bg-brand-title' />
-                    <span className='block w-[60%] self-end h-[3px] bg-brand-title' />
-                </li> */}
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="services" smooth={true} offset={-140} href='#'>
+                            Servicios
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="about" smooth={true} offset={-140} href='#'>
+                            Nosotros
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="clients" smooth={true} offset={-140} href='#'>
+                            Clientes
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link className="cursor-pointer text-brand-title font-semibold"
+                            to="contact" smooth={true} offset={-140} href='#'>
+                            Contacto
+                        </Link>
+                    </li>
+                </ul>
             </motion.nav>
         </header>
     )

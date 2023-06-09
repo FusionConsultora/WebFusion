@@ -37,7 +37,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, m
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <img src={image} alt={title} className="w-full " />
+                            <img src={image} alt={title} className="w-5/6" />
                         </div>
 
                         <div className="w-full inline-block md:mx-4 lg:mx-20"
@@ -84,7 +84,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, m
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <img src={image} alt={title} className="w-full " />
+                            <img src={image} alt={title} className="w-5/6" />
                         </div>
                     </>
                 )

@@ -18,7 +18,8 @@ const Contact = () => {
             data-aos="fade-down"
             data-aos-once="true"
             data-aos-duration="1000"
-            data-aos-easing="ease-in-out">
+            data-aos-easing="ease-in-out"
+            id="contact">
 
             <div className={style.shapeBottom}>
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -36,7 +37,7 @@ const Contact = () => {
 
 
 
-            <div className="h-72 bg-[#38B6FF] w-full">
+            <div className="h-80 bg-[#38B6FF] w-full">
                 <div className="relative mx-14 mt-1 pb-6 flex flex-col h-full">
 
                     <div className="items-center w-full">
@@ -48,30 +49,32 @@ const Contact = () => {
                         </a>
                         <hr></hr>
                     </div>
-                    <div className="flex flex-row justify-between mt-10">
+                    <div className="flex flex-col items-center justify-between mt-10 md:flex-row">
                         <div className="items-center">
-                            <p className="text-white text-xs lg:text-2xl">
+                            <p className="text-white text-sm lg:text-2xl">
                                 Consultoria & desarrollo
                             </p>
-                            {/* <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686323062/fusionWeb/consultoriawhite_lnvfg8.webp" className="w-96 mt-5 " /> */}
                         </div>
 
-                        <div className="flex flex-row">
-                            <p className="text-white text-xs lg:text-2xl">
+                        <div className="flex flex-col mt-4 items-center ml-4 md:mt-0 lg:mt-0 md:flex-row">
+                            <p className="text-white text-sm lg:text-2xl">
                                 2023 &copy; all rights reserve Fusion &nbsp;
                             </p>
-                            <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
-                                href='https://api.whatsapp.com/send/?phone=5491130500025'
-                                target="_blank"
-                                rel="noreferrer">
-                                <FaLinkedin />
-                            </a>
-                            <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
-                                href='mailto:contactoconsultorafusion@gmail.com'
-                                target="_blank"
-                                rel="noreferrer">
-                                <MdEmail />
-                            </a>
+                            <div className="flex mt-2">
+                                <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
+                                    href='https://www.linkedin.com/company/consultora-fusi%C3%B3n/'
+                                    target="_blank"
+                                    rel="noreferrer">
+                                    <FaLinkedin />
+                                </a>
+                                <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
+                                    href='mailto:contactoconsultorafusion@gmail.com'
+                                    target="_blank"
+                                    rel="noreferrer">
+                                    <MdEmail />
+                                </a>
+
+                            </div>
                         </div>
                     </div>
 

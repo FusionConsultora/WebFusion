@@ -14,7 +14,8 @@ const About = () => {
             data-aos="fade-down"
             data-aos-once="true"
             data-aos-duration="1000"
-            data-aos-easing="ease-in-out">
+            data-aos-easing="ease-in-out"
+            id="about">
             <div className='flex flex-col items-center justify-center max-w-5xl p-2 py-20 m-auto text-center '>
                 <h2 className='text-3xl xs:text-4xl xl:text-[44px] mb-4 leading-[3rem] font-medium text-white'>
                     Somos un equipo de expertos con más de 15 años de experiencia asesorando a pequeñas, medianas y grandes empresas.

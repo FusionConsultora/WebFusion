@@ -16,6 +16,7 @@ const Services = () => {
             data-aos-once="true"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
+            id="services"
         >
             <h2 className="mt-20 text-5xl font-bold text-center text-brand-blue mb-14">
                 Que te ofrecemos?

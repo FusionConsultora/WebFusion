@@ -5,10 +5,10 @@ const Projects = () => {
     return (
         <section className="mt-32 mx-4">
             <CardProject
-                image="https://web-experto.com.ar/wp-content/uploads/2021/03/solucion_1.png"
+                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686335341/fusionWeb/Consultor%C3%ADa_q8ooxc.avif"
                 title="Herramientas de gestión"
                 subtitle="Relevamos, organizamos, planificamos y estructuramos los procesos de tu empresa."
-                phrase="Hagamoslo realidad"
+                phrase="Conocer más"
                 href="https://api.whatsapp.com/send/?phone=5491130500025&text=Buenos+dias%2C+estoy+interesado+en+consultoria+y+gestion+de+procesos%21&type=phone_number&app_absent=0"
                 left={true}
                 fade="fade-right"
@@ -17,10 +17,10 @@ const Projects = () => {
             />
 
             <CardProject
-                image="https://web-experto.com.ar/wp-content/uploads/2021/03/solucion_1.png"
+                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686335279/fusionWeb/gestionprocesos_ewzcia.avif"
                 title="Consultoría y gestión de procesos"
                 subtitle="Nuestra gestión en recursos humanos está orientada a alcanzar los mas altos niveles de desempeño y competitividad organizacional."
-                phrase="Me interesa"
+                phrase="Conocer más"
                 href="https://api.whatsapp.com/send/?phone=5491130500025&text=Buenos+dias%2C+estoy+interesado+en+gestion+y+de+recursos+humanos%21&type=phone_number&app_absent=0"
                 left={false}
                 fade="fade-left"
@@ -29,10 +29,10 @@ const Projects = () => {
             />
 
             <CardProject
-                image="https://web-experto.com.ar/wp-content/uploads/2021/03/solucion_1.png"
+                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686331679/fusionWeb/desarrolloit_sb3bik.avif"
                 title="Desarrollo de proyectos a medida e implementación IT"
                 subtitle="Diseñamos, optimizamos e implementamos herramientas que te permitirán agilizar la imagen, posicionamiento y gestión de tu empresa."
-                phrase="Quiero comenzar"
+                phrase="Conocer más"
                 href="https://api.whatsapp.com/send/?phone=5491130500025&text=Buenos+dias%2C+estoy+interesado+en+desarrollo+de+software%21&type=phone_number&app_absent=0"
                 left={true}
                 fade="fade-right"
@@ -41,10 +41,10 @@ const Projects = () => {
             />
 
             <CardProject
-                image="https://web-experto.com.ar/wp-content/uploads/2021/03/solucion_1.png"
+                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686331638/fusionWeb/prevencion_bxhvxj.avif"
                 title="Prevención de estafas y fraudes laborales"
                 subtitle="Nuestro sistema de prevención automatizado y una consultoría de vanguardia anticipán las posibles vulnerabilidades y amenazas externas e internas garantizando el resguardo y buen funcionamiento de la estructura de un negocio, empresa o administración."
-                phrase="A por ello"
+                phrase="Conocer más"
                 href="https://api.whatsapp.com/send/?phone=5491130500025&text=Buenos+dias%2C+estoy+interesado+en+prevencion+de+fraudes%21&type=phone_number&app_absent=0"
                 left={false}
                 fade="fade-left"
