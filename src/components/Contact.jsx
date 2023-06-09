@@ -19,6 +19,7 @@ const Contact = () => {
             data-aos-once="true"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
+            data-aos-offset="-100"
             id="contact">
 
             <div className={style.shapeBottom}>
@@ -68,7 +69,7 @@ const Contact = () => {
                                     <FaLinkedin />
                                 </a>
                                 <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
-                                    href='mailto:contactoconsultorafusion@gmail.com'
+                                    href='mailto:Hola@consultorafusion.com'
                                     target="_blank"
                                     rel="noreferrer">
                                     <MdEmail />

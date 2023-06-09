@@ -29,45 +29,45 @@ const Clients = () => {
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/calmicon_oh5tbm.webp" height="100" width="250" alt="calm" />
                     </div>
                     <div className={style.slide}>
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/mlf_dsh6zu.webp" height="100" width="250" alt="calm" />
+                    </div>
+                    <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/ecommyicon_vdbgch.webp" height="100" width="250" alt="ecommy" />
                     </div>
                     <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/yaydooicon_ejckic.webp" height="100" width="250" alt="yaydoo" />
                     </div>
                     <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/horizonicon_lds1se.webp" height="100" width="250" alt="horizon" />
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/grupo_mgyg_ppbyyx.webp" height="100" width="250" alt="horizon" />
                     </div>
                     <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/mycicon_ycxd6t.webp" height="100" width="250" alt="myc" />
                     </div>
                     <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/vecchioicon_rg82sm.webp" height="100" width="250" alt="vecchio" />
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/Gemconex_kwybhi.webp" height="100" width="250" alt="vecchio" />
                     </div>
+
                     <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/calmicon_oh5tbm.webp" height="100" width="250" alt="calm" />
                     </div>
                     <div className={style.slide}>
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/mlf_dsh6zu.webp" height="100" width="250" alt="calm" />
+                    </div>
+                    <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/ecommyicon_vdbgch.webp" height="100" width="250" alt="ecommy" />
                     </div>
                     <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/yaydooicon_ejckic.webp" height="100" width="250" alt="yaydoo" />
                     </div>
                     <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/horizonicon_lds1se.webp" height="100" width="250" alt="horizon" />
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/grupo_mgyg_ppbyyx.webp" height="100" width="250" alt="horizon" />
                     </div>
                     <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/mycicon_ycxd6t.webp" height="100" width="250" alt="myc" />
                     </div>
                     <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/vecchioicon_rg82sm.webp" height="100" width="250" alt="vecchio" />
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/Gemconex_kwybhi.webp" height="100" width="250" alt="vecchio" />
                     </div>
-
-                    {/* <div className={style.slide}>
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-                </div>
-                <div className={style.slide}>
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-                </div>  */}
                 </div>
             </div>
         </section>
