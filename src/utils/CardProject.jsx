@@ -47,12 +47,12 @@ const CardProject = ({ image, title, subtitle, phrase, left, modalTitle, modalOp
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <h3 className="text-4xl text-brand-blue font-extrabold mb-6 md:mb-10 lg:w-96">
+                            <h2 className="text-4xl text-brand-blue font-extrabold mb-6 md:mb-10 lg:w-96">
                                 {title}
-                            </h3>
-                            <p className="text-base text-gray-500 font-light mb-6 max-w-[30rem] md:mb-10 z-10">
+                            </h2>
+                            <h3 className="text-base text-gray-500 font-light mb-6 max-w-[30rem] md:mb-10 z-10">
                                 {subtitle}
-                            </p>
+                            </h3>
                             <button className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit" onClick={openModal} >
                                 {phrase}
                             </button>
@@ -68,12 +68,12 @@ const CardProject = ({ image, title, subtitle, phrase, left, modalTitle, modalOp
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <h3 className="text-4xl text-brand-blue font-extrabold mb-6 md:mb-10 lg:w-96 text-start">
+                            <h2 className="text-4xl text-brand-blue font-extrabold mb-6 md:mb-10 lg:w-96 text-start">
                                 {title}
-                            </h3>
-                            <p className="text-base text-gray-500 font-light mb-6 max-w-[30rem] md:mb-10 text-start">
+                            </h2>
+                            <h3 className="text-base text-gray-500 font-light mb-6 max-w-[30rem] md:mb-10 text-start">
                                 {subtitle}
-                            </p>
+                            </h3>
                             <button className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit" onClick={openModal} >
                                 {phrase}
                             </button>

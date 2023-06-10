@@ -49,7 +49,7 @@ const Hero = () => {
                         Potencia tu empresa con soluciones vanguardistas. Lleva tus proyectos más allá de los límites convencionales.
                     </p>
                     <div className="lg:ml-48 lg:-mt-10">
-                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686427175/fusionWeb/avioncito_gegpio.webp' alt='icono header' className=' w-[50rem] h-[17rem] md:h-[22rem] cursor-pointer' />
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686430765/fusionWeb/cohete_bblyly.webp' alt='icono header' className=' w-[50rem] h-[17rem] md:h-[22rem] cursor-pointer' />
                     </div>
                 </div>
 
