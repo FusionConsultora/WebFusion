@@ -37,7 +37,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, m
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <img src={image} alt={title} className="w-5/6" />
+                            <img src={image} alt={title} className="w-5/6 h-auto" />
                         </div>
 
                         <div className="w-full inline-block md:mx-4 lg:mx-20"
@@ -52,9 +52,9 @@ const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, m
                             <p className="text-base text-gray-500 font-light mb-6 max-w-[30rem] md:mb-10 z-10">
                                 {subtitle}
                             </p>
-                            <a className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit" onClick={openModal} >
+                            <button className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit" onClick={openModal} >
                                 {phrase}
-                            </a>
+                            </button>
 
                         </div>
                     </>
@@ -73,9 +73,9 @@ const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, m
                             <p className="text-base text-gray-500 font-light mb-6 max-w-[30rem] md:mb-10 text-start">
                                 {subtitle}
                             </p>
-                            <a className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit" onClick={openModal} >
+                            <button className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit" onClick={openModal} >
                                 {phrase}
-                            </a>
+                            </button>
                         </div>
 
                         <div className="w-full  md:mx-4 lg:mr-44"
@@ -84,7 +84,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, m
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <img src={image} alt={title} className="w-5/6" />
+                            <img src={image} alt={title} className="w-5/6 h-auto" />
                         </div>
                     </>
                 )
