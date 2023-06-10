@@ -26,9 +26,22 @@ const Hero = () => {
                 data-aos-easing="ease-in-out">
 
                 <h1 className='mt-10 mx-6 text-4xl leading-[1.1] text-brand-title font-extrabold text-left sm:text-5xl '>
-                    Estás listo para llevar tu
-                    {window.innerWidth > 1000 ? <br></br> : null}
-                    negocio al próximo nivel?
+                    {/* Estás listo para llevar tu &nbsp;
+                    {window.innerWidth > 768 ? <br></br> : null}
+                    negocio al próximo nivel? */}
+
+                    {window.innerWidth > 768 ?
+                        <>
+                            Estás listo para llevar tu &nbsp;
+                            <br></br>
+                            negocio al próximo nivel?
+                        </>
+                        :
+                        <>
+                            Estás listo para llevar tu negocio al próximo nivel?
+                        </>
+                    }
+
                 </h1>
 
                 <div className="flex flex-col mx-6 items-start md:flex-row" >
