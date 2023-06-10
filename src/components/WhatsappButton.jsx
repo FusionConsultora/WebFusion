@@ -11,7 +11,6 @@ const WhatsappButton = () => {
             chatMessage="¡Hola! ¿Cómo podemos ayudarte?"
             placeholder="Escribe un mensaje..."
             avatar='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686150482/fusionWeb/fusion_logo_ywa5e1.webp'
-            style={{ ariaHidden: false, important: "true" }}
         />
     )
 }
