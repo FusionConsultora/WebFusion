@@ -64,13 +64,15 @@ const Contact = () => {
                                 <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
                                     href='https://www.linkedin.com/company/consultora-fusi%C3%B3n/'
                                     target="_blank"
-                                    rel="noreferrer">
+                                    rel="noreferrer"
+                                    aria-label="Linkedin">
                                     <FaLinkedin />
                                 </a>
                                 <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
                                     href='mailto:Hola@consultorafusion.com'
                                     target="_blank"
-                                    rel="noreferrer">
+                                    rel="noreferrer"
+                                    aria-label="Email">
                                     <MdEmail />
                                 </a>
 
