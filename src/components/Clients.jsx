@@ -16,7 +16,7 @@ const Clients = () => {
             data-aos-once="true"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="mb-96"
+            className="mb-60"
             id="clients">
 
             <h2 className="mt-32 text-5xl font-bold text-center text-brand-blue">
