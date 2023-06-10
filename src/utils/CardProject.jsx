@@ -8,7 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 // eslint-disable-next-line react/prop-types
-const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, modalOptions }) => {
+const CardProject = ({ image, title, subtitle, phrase, left, modalTitle, modalOptions }) => {
 
     Modal.setAppElement('#root')
 
@@ -31,16 +31,17 @@ const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, m
             {
                 left || window.innerWidth < 600 ? (
                     <>
-                        <div className="w-full md:mx-4 lg:mx-20 flex flex-col"
-                            data-aos={fade}
+                        <div className="w-full md:mx-4 lg:mx-20 flex flex-col items-center"
+                            // data-aos={fade}
+                            data-aos="fade-down"
                             data-aos-once="true"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <img src={image} alt={title} className="w-5/6 h-48 lg:h-72" />
+                            <img src={image} alt={title} className="w-5/6 " />
                         </div>
 
-                        <div className="w-full inline-block md:mx-4 lg:mx-20"
+                        <div className="w-full inline-block md:mx-4 "
                             data-aos="fade-down"
                             data-aos-once="true"
                             data-aos-duration="1000"
@@ -79,12 +80,13 @@ const CardProject = ({ image, title, subtitle, phrase, left, fade, modalTitle, m
                         </div>
 
                         <div className="w-full  md:mx-4 lg:mr-44"
-                            data-aos={fade}
+                            // data-aos={fade}
+                            data-aos="fade-down"
                             data-aos-once="true"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <img src={image} alt={title} className="w-5/6 h-48 lg:h-72" />
+                            <img src={image} alt={title} className="w-5/6" />
                         </div>
                     </>
                 )

@@ -30,8 +30,8 @@ const Contact = () => {
             <div className={style.boxBottom}> </div>
 
             <div className="relative mx-14">
-                <h2 className="mt-32 text-2xl font-bold text-white w-3/4 mb-6 lg:text-5xl lg:w-2/4">
-                    Estás listo para llevar tu negocio al próximo nivel?
+                <h2 className="mt-32 text-2xl font-bold text-white w-3/4 lg:text-5xl lg:w-2/4">
+                    ¡El momento es ahora!
                 </h2>
 
             </div>

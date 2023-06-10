@@ -26,9 +26,9 @@ const Hero = () => {
                 data-aos-easing="ease-in-out">
 
                 <h1 className='mt-10 mx-6 text-4xl leading-[1.1] text-brand-title font-extrabold text-left sm:text-5xl '>
-                    Impulsa tu negocio hacia el
+                    Estás listo para llevar tu
                     {window.innerWidth > 1000 ? <br></br> : null}
-                    futuro con nosotros.
+                    negocio al próximo nivel?
                 </h1>
 
                 <div className="flex flex-col mx-6 items-start md:flex-row" >
@@ -36,7 +36,7 @@ const Hero = () => {
                         Potencia tu empresa con soluciones vanguardistas. Lleva tus proyectos más allá de los límites convencionales.
                     </p>
                     <div className="lg:ml-48 lg:-mt-10">
-                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686146457/fusionWeb/pc2_o4eikd.webp' alt='icono header' className=' w-[50rem] h-[17rem] md:h-[22rem] cursor-pointer' />
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686427175/fusionWeb/avioncito_gegpio.webp' alt='icono header' className=' w-[50rem] h-[17rem] md:h-[22rem] cursor-pointer' />
                     </div>
                 </div>
 

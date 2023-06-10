@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <section className="mt-32 mx-4">
             <CardProject
-                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686335341/fusionWeb/Consultor%C3%ADa_q8ooxc.avif"
+                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686426251/fusionWeb/Herramientaslogito_nn9mog.webp"
                 title="Herramientas de gestión"
                 subtitle="Relevamos, organizamos, planificamos y estructuramos los procesos de tu empresa."
                 phrase="Conocer más"
@@ -17,7 +17,7 @@ const Projects = () => {
             />
 
             <CardProject
-                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686335279/fusionWeb/gestionprocesos_ewzcia.avif"
+                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686425815/fusionWeb/gesti%C3%B3nlogito_wd7uv0.webp"
                 title="Consultoría y gestión de procesos"
                 subtitle="Nuestra gestión en recursos humanos está orientada a alcanzar los mas altos niveles de desempeño y competitividad organizacional."
                 phrase="Conocer más"
@@ -29,7 +29,7 @@ const Projects = () => {
             />
 
             <CardProject
-                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686331679/fusionWeb/desarrolloit_sb3bik.avif"
+                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686425939/fusionWeb/itlogito_vyl6pe.webp"
                 title="Desarrollo de proyectos a medida e implementación IT"
                 subtitle="Diseñamos, optimizamos e implementamos herramientas que te permitirán agilizar la imagen, posicionamiento y gestión de tu empresa."
                 phrase="Conocer más"
@@ -41,7 +41,7 @@ const Projects = () => {
             />
 
             <CardProject
-                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686331638/fusionWeb/prevencion_bxhvxj.avif"
+                image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686425622/fusionWeb/cyberseguridad_myws5h.webp"
                 title="Prevención de estafas y fraudes laborales"
                 subtitle="Nuestro sistema de prevención automatizado y una consultoría de vanguardia anticipán las posibles vulnerabilidades y amenazas externas e internas garantizando el resguardo y buen funcionamiento de la estructura de un negocio, empresa o administración."
                 phrase="Conocer más"
