@@ -37,7 +37,6 @@ const Contact = () => {
             </div>
 
 
-
             <div className="h-80 bg-[#38B6FF] w-full">
                 <div className="relative mx-14 mt-1 pb-6 flex flex-col h-full">
 
