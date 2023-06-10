@@ -79,7 +79,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, modalTitle, modalOp
                             </button>
                         </div>
 
-                        <div className="w-full  md:mx-4 lg:mr-44"
+                        <div className="w-full m-auto md:mx-4 lg:mr-44"
                             // data-aos={fade}
                             data-aos="fade-down"
                             data-aos-once="true"
