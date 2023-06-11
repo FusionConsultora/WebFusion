@@ -86,7 +86,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, modalTitle, modalOp
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
 
-                            <img src={image} alt={title} className="w-5/6" />
+                            <img src={image} alt={title} className="w-5/6 m-auto" />
                         </div>
                     </>
                 )
