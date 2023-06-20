@@ -62,7 +62,7 @@ const Navbar = () => {
                 <ul className='w-full h-full grid grid-cols-2'>
                     <li className='mt-[-0.8rem]'>
                         <Link to="hero" smooth={true} offset={-140} href='#'>
-                            <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686146511/fusionWeb/logopng_nu7ff9.webp' alt='Logo de la empresa' className='h-24 w-24 cursor-pointer' />
+                            <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686146511/fusionWeb/logopng_nu7ff9.webp' alt='Logo de la empresa' title="Logo de la empresa" className='h-24 w-24 cursor-pointer' />
                         </Link>
                     </li>
                     <li className='self-center justify-self-end lg:hidden' onClick={handleClick}>

@@ -30,9 +30,9 @@ const Contact = () => {
             <div className={style.boxBottom}> </div>
 
             <div className="relative mx-14">
-                <h2 className="mt-32 text-2xl font-bold text-white w-3/4 lg:text-5xl lg:w-2/4">
+                <h4 className="mt-32 text-2xl font-bold text-white w-3/4 lg:text-5xl lg:w-2/4">
                     ¡El momento es ahora!
-                </h2>
+                </h4>
 
             </div>
 
@@ -44,7 +44,8 @@ const Contact = () => {
                         <a className={`text-2xl font-semibold text-gray-700  mx-auto flex flex-row items-center cursor-pointer mt-20 mb-4 ${style.hoverUp} lg:text-5xl`}
                             href='https://api.whatsapp.com/send/?phone=5491130500025'
                             target="_blank"
-                            rel="noreferrer">
+                            rel="noreferrer"
+                            title="WhatAapp">
                             Contactanos &nbsp; <MdWhatsapp />
                         </a>
                         <hr></hr>
@@ -58,21 +59,23 @@ const Contact = () => {
 
                         <div className="flex flex-col mt-4 items-center ml-4 md:mt-0 lg:mt-0 md:flex-row">
                             <p className="text-white text-sm lg:text-2xl">
-                                2023 &copy; all rights reserve Fusion &nbsp;
+                                2023 &copy; all rights reserve Fusión &nbsp;
                             </p>
                             <div className="flex mt-2">
                                 <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
                                     href='https://www.linkedin.com/company/consultora-fusi%C3%B3n/'
                                     target="_blank"
                                     rel="noreferrer"
-                                    aria-label="Linkedin">
+                                    aria-label="Linkedin"
+                                    title="Linkedin">
                                     <FaLinkedin />
                                 </a>
                                 <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
                                     href='mailto:Hola@consultorafusion.com'
                                     target="_blank"
                                     rel="noreferrer"
-                                    aria-label="Email">
+                                    aria-label="Email"
+                                    title="Email">
                                     <MdEmail />
                                 </a>
 

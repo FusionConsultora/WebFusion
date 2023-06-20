@@ -25,7 +25,9 @@ const Hero = () => {
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out">
 
-                <h1 className='mt-10 mx-6 text-4xl leading-[1.1] text-brand-title font-extrabold text-left sm:text-5xl '>
+                <h1 className="hidden">Consultora Fusion, Consultoria | Desarrollo IT y Administración de empresas </h1>
+
+                <h2 className='mt-10 mx-6 text-4xl leading-[1.1] text-brand-title font-extrabold text-left sm:text-5xl '>
                     {/* Estás listo para llevar tu &nbsp;
                     {window.innerWidth > 768 ? <br></br> : null}
                     negocio al próximo nivel? */}
@@ -42,18 +44,16 @@ const Hero = () => {
                         </>
                     }
 
-                </h1>
+                </h2>
 
                 <div className="flex flex-col mx-6 items-start md:flex-row" >
                     <p className='w-full mt-12 text-2xl leading-10 font-normal text-left text-brand-description'>
                         Potencia tu empresa con soluciones vanguardistas. Lleva tus proyectos más allá de los límites convencionales.
                     </p>
                     <div className="lg:ml-48 lg:-mt-10">
-                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686430765/fusionWeb/cohete_bblyly.webp' alt='icono header' className=' w-[50rem] h-[17rem] md:h-[22rem] cursor-pointer' />
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686430765/fusionWeb/cohete_bblyly.webp' alt='icono header' title="icono header" className=' w-[50rem] h-[17rem] md:h-[22rem] cursor-pointer' />
                     </div>
                 </div>
-
-
             </div>
         </section>
     )
