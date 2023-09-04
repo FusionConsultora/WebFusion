@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import style from "../styles/hero.module.scss"
+import style from "../../styles/hero.module.scss"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -25,7 +25,7 @@ const Hero = () => {
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out">
 
-                <h1 className="hidden">Consultora Fusion, Consultoria | Desarrollo IT y Administración de empresas </h1>
+                <h1 className="hidden">Fusion Consultant, Consulting | IT Development and Business Administration </h1>
 
                 <h2 className='mt-10 mx-6 text-4xl leading-[1.1] text-brand-title font-extrabold text-left sm:text-5xl '>
                     {/* Estás listo para llevar tu &nbsp;
@@ -34,13 +34,13 @@ const Hero = () => {
 
                     {window.innerWidth > 768 ?
                         <>
-                            Estás listo para llevar tu &nbsp;
+                            Are you ready to take your &nbsp;
                             <br></br>
-                            negocio al próximo nivel?
+                            business to the next level?
                         </>
                         :
                         <>
-                            Estás listo para llevar tu negocio al próximo nivel?
+                            Are you ready to take your business to the next level?
                         </>
                     }
 
@@ -48,7 +48,7 @@ const Hero = () => {
 
                 <div className="flex flex-col mx-6 items-start md:flex-row" >
                     <p className='w-full mt-12 text-2xl leading-10 font-normal text-left text-brand-description'>
-                        Potencia tu empresa con soluciones vanguardistas. Lleva tus proyectos más allá de los límites convencionales.
+                        Power your company with avant-garde solutions. Take your projects beyond conventional limits.
                     </p>
                     <div className="lg:ml-48 lg:-mt-10">
                         <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686430765/fusionWeb/cohete_bblyly.webp' alt='icono header' title="icono header" className=' w-[50rem] h-[17rem] md:h-[22rem] cursor-pointer' />

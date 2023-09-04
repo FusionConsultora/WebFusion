@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import MenuIcon from '../utils/MenuIcon'
-import style from '../styles/header.module.scss'
+import MenuIcon from '../../utils/MenuIcon'
+import style from '../../styles/header.module.scss'
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll';
-
+import { useNavigate } from "react-router-dom";
+import { HiLanguage } from "react-icons/hi2";
 
 const variants = {
     open: {
@@ -30,10 +31,20 @@ const variants = {
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false)
     const [openMenu, setOpenMenu] = useState(false)
+    const navigate = useNavigate();
 
     const handleClick = () => {
         setOpenMenu(preValue => !preValue)
     }
+
+    const handleSelectChange = (event) => {
+        const selectedValue = event.target.value;
+        if (selectedValue === "spanish") {
+            navigate("/");
+        } else if (selectedValue === "english") {
+            navigate("/en");
+        }
+    };
 
     useEffect(() => {
         if (window.scrollY >= 90) {
@@ -65,8 +76,22 @@ const Navbar = () => {
                             <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686146511/fusionWeb/logopng_nu7ff9.webp' alt='Logo de la empresa' title="Logo de la empresa" className='h-24 w-24 cursor-pointer' />
                         </Link>
                     </li>
-                    <li className='self-center justify-self-end lg:hidden' onClick={handleClick}>
-                        <MenuIcon />
+                    <li className='self-center justify-self-end flex justify-end items-center gap-x-2 lg:hidden'>
+                        <div className="relative inline-block">
+                            <div className="absolute left-2 top-1/2 transform -translate-y-1/2">
+                                <HiLanguage color="#000000" width="1rem" />
+                            </div>
+                            <select
+                                className="rounded-md outline-cyan-300 cursor-pointer border hover:border-cyan-300 focus:outline-none focus:border-cyan-300 py-[0.14rem] pl-7"
+                                onChange={handleSelectChange}
+                            >
+                                <option value="spanish" className="bg-cyan-100 border-none text-gray-500 text-sm">Español</option>
+                                <option value="english" className="bg-cyan-100 border-none text-gray-500 text-sm">Inglés</option>
+                            </select>
+                        </div>
+                        <div onClick={handleClick}>
+                            <MenuIcon />
+                        </div>
                     </li>
                 </ul>
                 <motion.ul
@@ -115,7 +140,7 @@ const Navbar = () => {
                     <li className='cursor-pointer text-brand-title font-semibold '>Contacto</li> */}
                 </motion.ul>
 
-                <ul className='hidden w-[90%]  max-w-3xl p-8 text-left lg:flex self-center text-[1rem] gap-x-8 justify-center '>
+                <ul className='hidden w-[90%] max-w-3xl p-8 text-left lg:flex lg:items-center self-center text-[1rem] gap-x-8 justify-center'>
                     <li>
                         <Link className="cursor-pointer text-brand-title font-semibold"
                             to="hero" smooth={true} offset={-140} href='#'>
@@ -149,6 +174,21 @@ const Navbar = () => {
                             to="contact" smooth={true} offset={-140} href='#'>
                             Contacto
                         </Link>
+                    </li>
+
+                    <li>
+                        <div className="relative inline-block">
+                            <div className="absolute left-2 top-1/2 transform -translate-y-1/2">
+                                <HiLanguage color="#000000" width="1rem" />
+                            </div>
+                            <select
+                                className="rounded-md outline-cyan-300 cursor-pointer border hover:border-cyan-300 focus:outline-none focus:border-cyan-300 py-[0.14rem] pl-7"
+                                onChange={handleSelectChange}
+                            >
+                                <option value="spanish" className="bg-cyan-100 border-none text-gray-500 text-sm">Español</option>
+                                <option value="english" className="bg-cyan-100 border-none text-gray-500 text-sm">Inglés</option>
+                            </select>
+                        </div>
                     </li>
                 </ul>
             </motion.nav>

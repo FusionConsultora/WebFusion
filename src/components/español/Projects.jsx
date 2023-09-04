@@ -1,4 +1,4 @@
-import CardProject from "../utils/CardProject"
+import CardProject from "../../utils/CardProject"
 
 const Projects = () => {
 

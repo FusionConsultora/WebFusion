@@ -30,7 +30,8 @@ export default function MenuIcon() {
     }
 
     return (
-        <button className='w-7 h-7 flex flex-col gap-[5px]' onClick={handleClick} aria-label='buttonNav'>
+        <button className='w-7 flex flex-col gap-[5px]' onClick={handleClick} aria-label='buttonNav'>
+            {/* <button className='w-7 h-7 flex flex-col gap-[5px]' onClick={handleClick} aria-label='buttonNav'> */}
             <div ref={topLine} className='w-full h-[2px] rounded-md bg-brand-title' />
             <div ref={middleLine} className='w-full h-[2px] rounded-md bg-brand-title ' />
             <div ref={bottomLine} className='w-full h-[2px] rounded-md bg-brand-title ' />

@@ -1,7 +1,7 @@
 import style from "../styles/services.module.scss"
 
 // eslint-disable-next-line react/prop-types
-const CardService = ({ image, title, subtitle }) => {
+const CardService = ({ image, title, subtitle, contact }) => {
     return (
         <div className={`w-64 h-72 flex flex-col justify-center items-center m-3 p-4 rounded-xl ${style.shadowCard}`}>
             <img src={image} alt={title} title={title} className="w-20 mb-4 h-20" />
@@ -12,7 +12,7 @@ const CardService = ({ image, title, subtitle }) => {
                 rel="noreferrer"
                 className="text-brand-lightBlue font-light"
                 title="Contact WhatsApp">
-                &laquo; Contactanos &raquo;
+                &laquo; {contact} &raquo;
             </a>
         </div>
     )

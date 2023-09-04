@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import style from "../styles/clients.module.scss"
+import style from "../../styles/clients.module.scss"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';

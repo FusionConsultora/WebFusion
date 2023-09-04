@@ -1,25 +1,25 @@
-import Projects from './components/Projects'
-import Clients from './components/Clients'
-import Contact from './components/Contact'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Services from './components/Services'
-import WhatsappButton from './components/WhatsappButton'
-import About from './components/About'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import HomeES from "./pages/HomeES";
+import HomeEN from "./pages/HomeEN";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomeES />,
+  },
+  {
+    path: "/en",
+    element: <HomeEN />,
+  },
+]);
 
 function App() {
   return (
     <div className="font-poppins">
-
-      <Navbar />
-      <Hero />
-      <Services />
-      <Projects />
-      <About />
-      <Clients />
-      <Contact />
-
-      <WhatsappButton />
+      <RouterProvider router={router} />
     </div>
   )
 }
