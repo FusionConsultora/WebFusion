@@ -31,46 +31,51 @@ const LastProjects = () => {
                 Últimos Proyectos
             </h3>
 
-            <Swiper
-                loop
-                navigation
-                slidesPerView={1.4}
-                spaceBetween={300}
-                breakpoints={{
-                    740: {
-                        slidesPerView: 1.7,
-                        spaceBetween: 300
-                    },
-                    1240: {
-                        slidesPerView: 2,
-                        spaceBetween: 180
-                    },
-                    1700: {
-                        slidesPerView: 3,
-                        spaceBetween: 12
+            <div className='w-[95%] mx-auto'>
+                <Swiper
+                    style={{
+                        '--swiper-navigation-color': '#000000',
+                        '--swiper-pagination-color': '#000000',
+                    }}
+                    loop
+                    navigation
+                    slidesPerView={1.4}
+                    spaceBetween={300}
+                    breakpoints={{
+                        740: {
+                            slidesPerView: 1.7,
+                            spaceBetween: 300
+                        },
+                        1240: {
+                            slidesPerView: 2,
+                            spaceBetween: 180
+                        },
+                        1700: {
+                            slidesPerView: 3,
+                            spaceBetween: 12
+                        }
+                    }}
+                    grabCursor={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper"
+                >
+                    {
+                        ProjectsUtil && ProjectsUtil.map((item, index) => (
+                            <SwiperSlide key={index}>
+                                <div className="flex flex-col w-[26rem] sm:w-[37rem] xl:w-[37rem] h-[22rem] sm:h-[27rem] p-4 rounded-[32px] bg-sky-200/40">
+                                    <img src={item.image} alt="projectImage" className="mt-2 rounded-lg mx-auto aspect-[16/9] select-none" />
+                                    <p className="mt-4 text-3xl font-semibold text-center text-brand-title">
+                                        {item.name}
+                                    </p>
+                                </div>
+                            </SwiperSlide>
+                        ))
                     }
-                }}
-                grabCursor={true}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Pagination, Navigation]}
-                className="mySwiper"
-            >
-                {
-                    ProjectsUtil && ProjectsUtil.map((item, index) => (
-                        <SwiperSlide key={index}>
-                            <div className="flex flex-col w-[26rem] sm:w-[37rem] xl:w-[37rem] h-[22rem] sm:h-[27rem] p-4 rounded-[32px] bg-sky-200/40">
-                                <img src={item.image} alt="projectImage" className="mt-2 rounded-lg mx-auto aspect-[16/9]" />
-                                <p className="mt-4 text-3xl font-semibold text-center text-brand-title">
-                                    {item.name}
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                    ))
-                }
-            </Swiper>
-
+                </Swiper>
+            </div>
 
         </section>
     )
