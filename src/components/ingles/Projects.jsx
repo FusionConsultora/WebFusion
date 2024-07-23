@@ -6,13 +6,13 @@ const Projects = () => {
         <section className="mt-32 mx-4">
             <CardProject
                 image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686426251/fusionWeb/Herramientaslogito_nn9mog.webp"
-                title="Consulting in Sustainability and Corporate Social Responsibility"
+                title="Consulting in Management and Business Strategy"
                 subtitle="We relieve, organize, plan and structure the processes of your company."
                 phrase="Know more"
                 href="https://api.whatsapp.com/send/?phone=5491166863363&text=Buenos+dias%2C+estoy+interesado+en+consultoria+y+gestion+de+procesos%21&type=phone_number&app_absent=0"
                 left={true}
                 fade="fade-right"
-                modalTitle="Consulting in Sustainability and Corporate Social Responsibility"
+                modalTitle="Consulting in Management and Business Strategy"
                 items={[
                     {
                         list: false,
