@@ -17,12 +17,15 @@ const About = () => {
             data-aos-easing="ease-in-out"
             id="about">
             <div className='flex flex-col items-center justify-center max-w-5xl p-2 py-20 m-auto text-center '>
-                <h3 className='text-3xl xs:text-4xl xl:text-[44px] mb-4 leading-[3rem] font-medium text-white'>
+                <h3 className='text-3xl xs:text-4xl xl:text-5xl mb-4 leading-[3rem] font-medium text-white'>
                     Nuestro equipo.
                 </h3>
-                <p className='mt-6 text-base text-white xs:text-lg  font-light'>
-                    Somos un equipo de expertos con más de 15 años de experiencia asesorando a pequeñas, medianas y grandes empresas.
-                    Nuestro compromiso y responsabilidad nos motiva a capacitarnos y actualizar nuestros conocimientos de forma continua, preparados para desarrollar herramientas, estrategias y consultorías basadas en los más altos estandartes de calidad, seguridad, ética y buenas prácticas.
+                <p className='text-lg tracking-tight md:text-xl text-left text-white font-light'>
+                    Nuestro equipo de consultores expertos combina experiencia probada en diversas industrias con un profundo conocimiento local e internacional. Desde la optimización de procesos y la implementación de estrategias de crecimiento hasta el desarrollo organizacional y la gestión de talento humano, cada uno de nuestros servicios está diseñado para maximizar el rendimiento y el impacto positivo en tu empresa.
+                </p>
+
+                <p className='text-lg tracking-tight md:text-xl text-left text-white font-medium mt-10'>
+                    Contáctanos hoy mismo y descubre por qué somos la elección preferida en consultoría empresarial y recursos humanos en Argentina.
                 </p>
                 {/* <InvertedButton label='Get expert advice ' /> */}
             </div>

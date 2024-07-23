@@ -32,7 +32,7 @@ const Services = () => {
 
                 <CardService
                     image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686148710/fusionWeb/iconrecursos_cgkz98.webp"
-                    title="Recursos Humanos"
+                    title="Consultoría en RRHH"
                     subtitle="Gestión de recursos humanos para alto rendimiento y competitividad."
                     contact="Contactanos"
                 />
@@ -46,8 +46,8 @@ const Services = () => {
 
                 <CardService
                     image="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686149028/fusionWeb/iconseguridad_huzbfb.webp"
-                    title="Prevención de fraudes"
-                    subtitle="Protección integral contra amenazas y vulnerabilidades."
+                    title="Sustentabilidad y Responsabilidad Social Empresarial"
+                    subtitle="Fortaleciendo la sostenibilidad y mitigando riesgos empresariales"
                     contact="Contactanos"
                 />
             </div>

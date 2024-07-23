@@ -15,11 +15,11 @@ const HomeEN = () => {
 
             <Navbar />
             <Hero />
-            <LastProjects />
             <Services />
             <Projects />
             <About />
             <Clients />
+            <LastProjects />
             <Contact />
 
             <WhatsappButton />

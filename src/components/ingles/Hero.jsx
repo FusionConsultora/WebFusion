@@ -46,12 +46,13 @@ const Hero = () => {
 
                 </h2>
 
-                <div className="flex flex-col mx-6 items-start md:flex-row" >
+                <div className="flex flex-col mx-6 items-start md:grid md:grid-cols-2" >
                     <p className='w-full mt-12 text-2xl leading-10 font-normal text-left text-brand-description'>
-                        Power your company with avant-garde solutions. Take your projects beyond conventional limits.
+                        We are a consulting firm specialized in management and business strategy. We optimize your business
+                        to achieve sustainable success. Contact us today!
                     </p>
                     <div className="lg:ml-48 lg:-mt-10">
-                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686430765/fusionWeb/cohete_bblyly.webp' alt='icono header' title="icono header" className=' w-[50rem] h-[17rem] md:h-[22rem] cursor-pointer' />
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686430765/fusionWeb/cohete_bblyly.webp' alt='icono header' title="icono header" className='w-full cursor-pointer' />
                     </div>
                 </div>
             </div>

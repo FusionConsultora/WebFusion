@@ -17,12 +17,15 @@ const About = () => {
             data-aos-easing="ease-in-out"
             id="about">
             <div className='flex flex-col items-center justify-center max-w-5xl p-2 py-20 m-auto text-center '>
-                <h3 className='text-3xl xs:text-4xl xl:text-[44px] mb-4 leading-[3rem] font-medium text-white'>
+                <h3 className='text-3xl xs:text-4xl xl:text-5xl mb-4 leading-[3rem] font-medium text-white'>
                     Our team.
                 </h3>
-                <p className='mt-6 text-base text-white xs:text-lg  font-light'>
-                    We are a team of experts with more than 15 years of experience advising small, medium and large companies.
-                    Our commitment and responsibility motivate us to train and update our knowledge continuously, prepared to develop tools, strategies and consultancies based on the highest standards of quality, safety, ethics and good practices.
+                <p className='text-lg tracking-tight md:text-xl text-left text-white font-light'>
+                    Our team of expert consultants combines proven experience in various industries with deep local and international knowledge. From process optimization and the implementation of growth strategies to organizational development and human talent management, each of our services is designed to maximize performance and positive impact on your company.
+                </p>
+
+                <p className='text-lg tracking-tight md:text-xl text-left text-white font-medium mt-10'>
+                    Contact us today and discover why we are the preferred choice for business consulting and human resources in Argentina.
                 </p>
                 {/* <InvertedButton label='Get expert advice ' /> */}
             </div>

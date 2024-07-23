@@ -42,7 +42,7 @@ const Contact = () => {
 
                     <div className="items-center w-full">
                         <a className={`text-2xl font-semibold text-gray-700  mx-auto flex flex-row items-center cursor-pointer mt-20 mb-4 ${style.hoverUp} lg:text-5xl`}
-                            href='https://api.whatsapp.com/send/?phone=5491130500025'
+                            href='https://api.whatsapp.com/send/?phone=5491166863363'
                             target="_blank"
                             rel="noreferrer"
                             title="WhatAapp">

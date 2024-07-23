@@ -24,7 +24,7 @@ const LastProjects = () => {
             data-aos-once="true"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="mb-40"
+            className="mb-[300px]"
             id="last">
 
             <h3 className="mt-32 mb-10 text-5xl font-bold text-center text-brand-blue">
@@ -66,13 +66,13 @@ const LastProjects = () => {
                         ProjectsUtil && ProjectsUtil.map((item, index) => (
                             <SwiperSlide key={index}>
                                 <div className="flex flex-col w-[26rem] sm:w-[37rem] xl:w-[37rem] h-[23.5rem] sm:h-[29rem] p-4 rounded-[32px] bg-sky-200/40">
-                                    <img src={item.image} alt="projectImage" className="mt-2 rounded-lg mx-auto aspect-[16/9] select-none" />
+                                    <img src={item.image} alt="projectImage" className="mt-2 rounded-lg mx-auto aspect-[16/9] object-cover select-none" />
                                     <p className="mt-4 text-3xl font-poppins font-semibold text-center text-brand-title">
                                         {item.name}
                                     </p>
                                     {
                                         item.deploy && (
-                                            <a href={item.deploy} target="_blank" className="font-poppins font-normal text-center text-brand-title bg-brand-lightBlue cursor-pointer w-fit px-2 rounded mx-auto mt-3" rel="noreferrer">
+                                            <a href={item.deploy} target="_blank" className="font-poppins font-normal text-center bg-brand-title text-white cursor-pointer w-fit px-2 rounded mx-auto mt-3" rel="noreferrer">
                                                 Visitar
                                             </a>
                                         )
