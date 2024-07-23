@@ -59,7 +59,7 @@ const Contact = () => {
 
                         <div className="flex flex-col mt-4 items-center ml-4 md:mt-0 lg:mt-0 md:flex-row">
                             <p className="text-white text-sm lg:text-2xl">
-                                2023 &copy; all rights reserved Fusión &nbsp;
+                                2024 &copy; all rights reserved Fusión &nbsp;
                             </p>
                             <div className="flex mt-2">
                                 <a className={`text-2xl font-semibold text-gray-700  mx-7 flex flex-row items-center cursor-pointer ${style.hoverUp} lg:text-5xl`}
