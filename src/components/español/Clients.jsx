@@ -46,6 +46,12 @@ const Clients = () => {
                     <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/Gemconex_kwybhi.webp" height="100" width="250" alt="vecchio" title="vecchio" />
                     </div>
+                    <div className={style.slide}>
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1721225805/LOGO_SERGIKIGAI_fondo_transparente-04_de3ku3.webp" height="100" width="100" alt="vecchio" title="vecchio" />
+                    </div>
+                    <div className={style.slide}>
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1710968187/salvatuempresa/salvalogocolor_ote8it.webp" height="90" width="90" alt="vecchio" title="vecchio" />
+                    </div>
 
                     <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/calmicon_oh5tbm.webp" height="100" width="250" alt="calm" title="calm" />
@@ -67,6 +73,12 @@ const Clients = () => {
                     </div>
                     <div className={style.slide}>
                         <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/Gemconex_kwybhi.webp" height="100" width="250" alt="vecchio" title="vecchio" />
+                    </div>
+                    <div className={style.slide}>
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1721225805/LOGO_SERGIKIGAI_fondo_transparente-04_de3ku3.webp" height="100" width="100" alt="vecchio" title="vecchio" />
+                    </div>
+                    <div className={style.slide}>
+                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1710968187/salvatuempresa/salvalogocolor_ote8it.webp" height="90" width="90" alt="vecchio" title="vecchio" />
                     </div>
                 </div>
             </div>
