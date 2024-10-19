@@ -11,7 +11,7 @@ const Hero = () => {
     }, [])
 
     return (
-        <section className='relative bg-gradient-to-t from-white via-brand-lightBlue/30 to-brand-lightBG/90 md:bg-gradient-to-tr md:from-white md:via-brand-lightBG/30 md:to-brand-lightBG/90' id="hero">
+        <section className='relative bg-gradient-to-t from-white via-brand-lightPink/30 to-brand-lightPink/90 md:bg-gradient-to-tr md:from-white md:via-brand-to-brand-lightPink/30 md:to-brand-lightPink/90' id="hero">
 
             <div className={style.shapeTop}>
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

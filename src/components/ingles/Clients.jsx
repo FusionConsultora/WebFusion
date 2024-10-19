@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import style from "../../styles/clients.module.scss"
+import "../../styles/clients.css"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,59 +16,69 @@ const Clients = () => {
             data-aos-once="true"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="mb-60"
+            className="mb-28"
             id="clients">
 
             <h3 className="mt-32 text-5xl font-bold text-center text-brand-blue">
                 Our clients
             </h3>
 
-            <div className={style.slider}>
-                <div className={style.slideTrack}>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/calmicon_oh5tbm.webp" height="100" width="250" alt="calm" title="calm" />
+            <div className='p-4 lg:p-24'>
+                <div className="wrapper">
+                    <div className="item item1">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/calmicon_oh5tbm.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/mlf_dsh6zu.webp" height="100" width="250" alt="mlf" title="mlf" />
+                    <div className="item item2">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/mlf_dsh6zu.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/ecommyicon_vdbgch.webp" height="100" width="250" alt="ecommy" title="ecommy" />
+                    <div className="item item3">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/ecommyicon_vdbgch.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/yaydooicon_ejckic.webp" height="100" width="250" alt="yaydoo" title="yaydoo" />
+                    <div className="item item4">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/yaydooicon_ejckic.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/grupo_mgyg_ppbyyx.webp" height="100" width="250" alt="horizon" title="horizon" />
+                    <div className="item item5">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/grupo_mgyg_ppbyyx.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/mycicon_ycxd6t.webp" height="100" width="250" alt="myc" title="myc" />
+                    <div className="item item6">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/mycicon_ycxd6t.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/Gemconex_kwybhi.webp" height="100" width="250" alt="vecchio" title="vecchio" />
+                    <div className="item item7">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/Gemconex_kwybhi.webp' />
+                    </div>
+                    <div className="item item8">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1728957019/logocapri_gl3bbk_ybgs0x.webp' />
                     </div>
 
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/calmicon_oh5tbm.webp" height="100" width="250" alt="calm" title="calm" />
+                </div>
+
+                <div className="wrapper">
+                    <div className="itemw item1">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/yaydooicon_ejckic.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/mlf_dsh6zu.webp" height="100" width="250" alt="mlf" title="mlf" />
+                    <div className="itemw item2">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/grupo_mgyg_ppbyyx.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/ecommyicon_vdbgch.webp" height="100" width="250" alt="ecommy" title="ecommy" />
+                    <div className="itemw item3">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/mycicon_ycxd6t.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/yaydooicon_ejckic.webp" height="100" width="250" alt="yaydoo" title="yaydoo" />
+                    <div className="itemw item4">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/Gemconex_kwybhi.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/grupo_mgyg_ppbyyx.webp" height="100" width="250" alt="horizon" title="horizon" />
+                    <div className="itemw item5">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1728957019/logocapri_gl3bbk_ybgs0x.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/mycicon_ycxd6t.webp" height="100" width="250" alt="myc" title="myc" />
+                    <div className="itemw item6">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/calmicon_oh5tbm.webp' />
                     </div>
-                    <div className={style.slide}>
-                        <img src="https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/Gemconex_kwybhi.webp" height="100" width="250" alt="vecchio" title="vecchio" />
+                    <div className="itemw item7">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686342371/fusionWeb/mlf_dsh6zu.webp' />
+                    </div>
+                    <div className="itemw item8">
+                        <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686167790/fusionWeb/ecommyicon_vdbgch.webp' />
                     </div>
                 </div>
+
             </div>
         </section>
     )

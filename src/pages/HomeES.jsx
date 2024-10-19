@@ -7,6 +7,7 @@ import Services from '../components/español/Services'
 import WhatsappButton from '../components/español/WhatsappButton'
 import About from '../components/español/About'
 import LastProjects from '../components/español/LastProjects'
+import Coaching from '../components/español/Coaching'
 
 function HomeES() {
     return (
@@ -15,6 +16,7 @@ function HomeES() {
             <Navbar />
             <Hero />
             <Services />
+            <Coaching />
             <Projects />
             <About />
             <Clients />

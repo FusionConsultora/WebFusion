@@ -7,6 +7,7 @@ import Services from '../components/ingles/Services'
 import WhatsappButton from '../components/ingles/WhatsappButton'
 import About from '../components/ingles/About'
 import LastProjects from '../components/ingles/LastProjects'
+import Coaching from '../components/ingles/Coaching'
 
 
 const HomeEN = () => {
@@ -16,6 +17,7 @@ const HomeEN = () => {
             <Navbar />
             <Hero />
             <Services />
+            <Coaching />
             <Projects />
             <About />
             <Clients />

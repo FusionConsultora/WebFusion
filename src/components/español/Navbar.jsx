@@ -73,7 +73,8 @@ const Navbar = () => {
                 <ul className='w-full h-full grid grid-cols-2'>
                     <li className='mt-[-0.8rem]'>
                         <Link to="hero" smooth={true} offset={-140} href='#'>
-                            <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686146511/fusionWeb/logopng_nu7ff9.webp' alt='Logo de la empresa' title="Logo de la empresa" className='h-24 w-24 cursor-pointer' />
+                            {/* <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686146511/fusionWeb/logopng_nu7ff9.webp' alt='Logo de la empresa' title="Logo de la empresa" className='h-24 w-24 cursor-pointer' /> */}
+                            <img src='https://res.cloudinary.com/dpmum6s9p/image/upload/v1728952576/fusionWeb/iconblackfusion_qr7dcl.webp' alt='Logo de la empresa' title="Logo de la empresa" className='h-24 w-24 cursor-pointer' />
                         </Link>
                     </li>
                     <li className='self-center justify-self-end flex justify-end items-center gap-x-2 lg:hidden'>
@@ -82,11 +83,11 @@ const Navbar = () => {
                                 <HiLanguage color="#000000" width="1rem" />
                             </div>
                             <select
-                                className="rounded-md outline-cyan-300 cursor-pointer border hover:border-cyan-300 focus:outline-none focus:border-cyan-300 py-[0.14rem] pl-7"
+                                className="rounded-md outline-fuchsia-300 cursor-pointer border hover:border-fuchsia-300 focus:outline-none focus:border-fuchsia-300 py-[0.14rem] pl-7"
                                 onChange={handleSelectChange}
                             >
-                                <option value="spanish" className="bg-cyan-100 border-none text-gray-500 text-sm">Español</option>
-                                <option value="english" className="bg-cyan-100 border-none text-gray-500 text-sm">Inglés</option>
+                                <option value="spanish" className="bg-fuchsia-100 border-none text-gray-500 text-sm">Español</option>
+                                <option value="english" className="bg-fuchsia-100 border-none text-gray-500 text-sm">Inglés</option>
                             </select>
                         </div>
                         <div onClick={handleClick}>
@@ -99,78 +100,74 @@ const Navbar = () => {
                     className={` ${style.nav} absolute w-[90%]  max-w-3xl p-8 text-left ${openMenu ? 'flex' : 'hidden'} flex-col gap-3 text-[1.2rem] font-[400]  top-24  bg-white right-1/2 left-1/2 translate-x-[-50%] `}
                 >
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="hero" smooth={true} offset={-140} href='#' onClick={handleClick}>
                             Inicio
                         </Link>
                     </li>
 
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="services" smooth={true} offset={-140} href='#' onClick={handleClick}>
                             Servicios
                         </Link>
                     </li>
 
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="about" smooth={true} offset={-140} href='#' onClick={handleClick}>
                             Nosotros
                         </Link>
                     </li>
 
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="clients" smooth={true} offset={-140} href='#' onClick={handleClick}>
                             Clientes
                         </Link>
                     </li>
 
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="contact" smooth={true} offset={-140} href='#' onClick={handleClick}>
                             Contacto
                         </Link>
                     </li>
 
-                    {/* <li className='cursor-pointer text-brand-title font-semibold '>Inicio</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Servicios</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Nosotros</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Clientes</li>
-                    <li className='cursor-pointer text-brand-title font-semibold '>Contacto</li> */}
+
                 </motion.ul>
 
                 <ul className='hidden w-[90%] max-w-3xl p-8 text-left lg:flex lg:items-center self-center text-[1rem] gap-x-8 justify-center'>
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="hero" smooth={true} offset={-140} href='#'>
                             Inicio
                         </Link>
                     </li>
 
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="services" smooth={true} offset={-140} href='#'>
                             Servicios
                         </Link>
                     </li>
 
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="about" smooth={true} offset={-140} href='#'>
                             Nosotros
                         </Link>
                     </li>
 
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="clients" smooth={true} offset={-140} href='#'>
                             Clientes
                         </Link>
                     </li>
 
                     <li>
-                        <Link className="cursor-pointer text-brand-title font-semibold"
+                        <Link className="cursor-pointer text-brand-title font-semibold border-b-2 border-b-transparent hover:border-b-red-500 transition-all ease-linear duration-150"
                             to="contact" smooth={true} offset={-140} href='#'>
                             Contacto
                         </Link>
@@ -182,11 +179,11 @@ const Navbar = () => {
                                 <HiLanguage color="#000000" width="1rem" />
                             </div>
                             <select
-                                className="rounded-md outline-cyan-300 cursor-pointer border hover:border-cyan-300 focus:outline-none focus:border-cyan-300 py-[0.14rem] pl-7"
+                                className="rounded-md outline-fuchsia-300 cursor-pointer border hover:border-fuchsia-300 focus:outline-none focus:border-fuchsia-300 py-[0.14rem] pl-7"
                                 onChange={handleSelectChange}
                             >
-                                <option value="spanish" className="bg-cyan-100 border-none text-gray-500 text-sm">Español</option>
-                                <option value="english" className="bg-cyan-100 border-none text-gray-500 text-sm">Inglés</option>
+                                <option value="spanish" className="bg-fuchsia-100 border-none text-gray-500 text-sm">Español</option>
+                                <option value="english" className="bg-fuchsia-100 border-none text-gray-500 text-sm">Inglés</option>
                             </select>
                         </div>
                     </li>

@@ -13,13 +13,19 @@ export default {
       },
       colors: {
         brand: {
-          title: "#011b34",  
+          title: "#011b34",
           text: '#303030',
           lightBlue: '#38B6FF',
-          blue:'#17538E',
-          lightBG:"#80c5d6",
-          red:"#ff0000",
-          pink:"#ff00bf"
+          blue: '#17538E',
+          lightViolet: '#FF38B5',
+          violet: '#8E1776',
+          lightBG: "#80c5d6",
+          red: "#ff0000",
+          pink: "#ff00bf",
+          gray: "#eef1f1",
+          cyan: "#0cc0df",
+          lightPink: "#d862b4",
+          dark: "#0d001b"
         }
       },
       // Animation for the menu

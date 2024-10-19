@@ -10,7 +10,7 @@ const WhatsappButton = () => {
             statusMessage=""
             chatMessage="¡Hola! ¿Cómo podemos ayudarte?"
             placeholder="Escribe un mensaje..."
-            avatar='https://res.cloudinary.com/dpmum6s9p/image/upload/v1686150482/fusionWeb/fusion_logo_ywa5e1.webp'
+            avatar='https://res.cloudinary.com/dpmum6s9p/image/upload/v1728956135/fusionWeb/1726514781610_vlk7kk.webp'
         />
     )
 }

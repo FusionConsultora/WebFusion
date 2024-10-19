@@ -55,7 +55,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, modalTitle, items }
                             <h3 className="text-base text-gray-500 font-light mb-6 max-w-[30rem] md:mb-10 z-10">
                                 {subtitle}
                             </h3>
-                            <button className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit" onClick={openModal} >
+                            <button className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit hover:opacity-50 outline-none" onClick={openModal} >
                                 {phrase}
                             </button>
 
@@ -76,7 +76,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, modalTitle, items }
                             <h3 className="text-base text-gray-500 font-light mb-6 max-w-[30rem] md:mb-10 text-start">
                                 {subtitle}
                             </h3>
-                            <button className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit" onClick={openModal} >
+                            <button className="text-lg text-brand-lightBlue font-light p-2 border border-brand-lightBlue rounded-md cursor-pointer w-fit hover:opacity-50 outline-none" onClick={openModal} >
                                 {phrase}
                             </button>
                         </div>
@@ -100,7 +100,7 @@ const CardProject = ({ image, title, subtitle, phrase, left, modalTitle, items }
                 contentLabel="Details Service"
                 onRequestClose={() => setShowModalFoto(false)}
                 appElement={document.getElementById('root')}
-                className="mt-28 bg-white px-7 rounded-md md:w-3/5 mx-auto xl:w-2/4 max-h-[80vh] overflow-y-auto"
+                className="mt-28 bg-white px-7 rounded-md md:w-3/5 mx-auto xl:w-2/4 max-h-[80vh] overflow-y-auto outline-none"
                 overlayClassName="fixed inset-0 bg-black/70 z-40"
             >
                 <motion.div

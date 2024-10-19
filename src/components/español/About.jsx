@@ -10,7 +10,7 @@ const About = () => {
     }, [])
 
     return (
-        <section className='w-full bg-brand-blue'
+        <section className='w-full bg-brand-violet'
             data-aos="fade-down"
             data-aos-once="true"
             data-aos-duration="1000"
