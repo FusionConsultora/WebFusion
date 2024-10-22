@@ -25,7 +25,7 @@ const LastProjects = () => {
             data-aos-once="true"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="mb-[300px]"
+            className="mb-[300px] mx-auto"
             id="last">
 
             <h3 className="mb-10 text-5xl font-bold text-center text-brand-blue">
@@ -40,20 +40,20 @@ const LastProjects = () => {
                     }}
                     loop
                     navigation
-                    slidesPerView={1.4}
+                    slidesPerView={1}
                     spaceBetween={300}
                     breakpoints={{
                         740: {
-                            slidesPerView: 1.7,
+                            slidesPerView: 2,
                             spaceBetween: 300
                         },
                         1240: {
                             slidesPerView: 2,
-                            spaceBetween: 180
+                            spaceBetween: 200
                         },
                         1700: {
                             slidesPerView: 3,
-                            spaceBetween: 12
+                            spaceBetween: 200
                         }
                     }}
                     grabCursor={true}
@@ -67,7 +67,7 @@ const LastProjects = () => {
                         ProjectsUtil && ProjectsUtil.map((item, index) => (
 
                             <SwiperSlide key={index}>
-                                <div className={`flex flex-col w-[26rem] sm:w-[37rem] xl:w-[37rem] h-[23.5rem] sm:h-[29rem] p-4 rounded-[32px] ${style.animatedDark} `}>
+                                <div className={`flex flex-col w-full sm:w-[37rem] xl:w-[37rem] h-[23.5rem] sm:h-[29rem] p-4 rounded-[32px] ${style.animatedDark} `}>
                                     <img src={item.image} alt="projectImage" className="mt-2 rounded-lg mx-auto aspect-[16/9] object-cover select-none" />
                                     <p className="mt-4 text-3xl font-poppins font-semibold text-center text-brand-blue">
                                         {item.name}
